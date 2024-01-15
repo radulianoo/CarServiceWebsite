@@ -43,3 +43,12 @@ ScrollReveal().reveal(".price-card", {
     ...scrollRevealOptions,
     interval: 500,
 });
+
+
+//swiper
+const swiper = new Swiper(".swiper", {
+    loop:true,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});

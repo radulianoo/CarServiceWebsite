@@ -7,6 +7,10 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Carserving Website</title>
   </head>
@@ -191,7 +195,72 @@
       </div>
     </section>
 
+    <section class="contact">
+      <div class="section-container contact-container">
+        <div class="contact-content">
+          <p class="section-subheader">CONTACT US</p>
+          <h2 class="section-header">Imagine Your Car Feeling New Again</h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            reiciendis?
+          </p>
+          <div class="contact-btns">
+            <button class="btn">Our Services</button>
+            <button class="btn">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container testimonial-container" id="client">
+      <p class="section-subheader">CLIENT TESTIMONIALS</p>
+      <h2 class="section-header">100% Approved By Customers</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img src="./assets/testimonial-1.jpg" alt="testimonial" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur voluptate laudantium quaerat possimus, expedita
+                facilis suscipit vel asperiores adipisci a.
+              </p>
+              <h4>- Sarah T.</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img src="./assets/testimonial-2.jpg" alt="testimonial" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                natus tempore sequi, obcaecati molestias adipisci at atque
+                nostrum magni voluptatum?
+              </p>
+              <h4>- John P.</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img src="./assets/testimonial-3.jpg" alt="testimonial" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam nesciunt nihil dolorum architecto quod et fugit
+                corrupti consequuntur, blanditiis odio!
+              </p>
+              <h4>- David R.</h4>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
