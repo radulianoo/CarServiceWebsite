@@ -30,3 +30,16 @@ ScrollReveal().reveal(".header-btn", {
     ...scrollRevealOptions,
     delay: 500,
 })
+
+//service container
+ScrollReveal().reveal(".service-card", {
+    ...scrollRevealOptions,
+    interval: 500,
+})
+
+
+//price container
+ScrollReveal().reveal(".price-card", {
+    ...scrollRevealOptions,
+    interval: 500,
+});
