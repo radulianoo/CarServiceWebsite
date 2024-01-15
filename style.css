@@ -142,3 +142,60 @@ nav {
 .nav-links a:hover {
     color: var(--primary-color);
 }
+
+.header-container {
+    max-width: 600px;
+}
+
+.header-container h1 {
+    margin-bottom: 32px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--white);
+}
+
+.banner-container {
+    display: grid;
+    grid-auto-rows: minmax(0, 350px);
+}
+
+.banner-card {
+    padding: 80px, 32px;
+    display: grid;
+    place-content: center;
+}
+
+.banner-card:nth-child(1) {
+    background-color: var(--secondary-color);
+}
+.banner-card:nth-child(2) {
+    background-color: var(--secondary-color-dark);
+}
+
+.banner-card h4 {
+    max-width: 300px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.banner-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.experience-container {
+    display: grid;
+    gap: 32px;
+}
+
+.experience-image img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.service {
+    background-color: var(--extra-light);
+}
