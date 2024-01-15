@@ -496,3 +496,128 @@ nav {
     background-color: var(--secondary-color);
     text-align: center;
 }
+
+@media (width > 480px) {
+    .header-content h1 {
+        font-size: 64px;
+        line-height: 80px;
+    }
+
+    .banner-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-image {
+        grid-column: 1/3;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .customisation-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .price-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-col:first-child {
+        grid-column: 1/3;
+    }
+}
+
+@media (width > 768px) {
+    nav {
+        padding: 32px 16px;
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-bar {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .nav-menu-btn {
+        display: none;
+    }
+
+    .nav-links {
+        padding: 0;
+        width: unset;
+        position: static;
+        transform: none;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .header {
+        padding-top: 0;
+    }
+
+    .header-content h1 {
+        font-size: 80px;
+        line-height: 96px;
+    }
+
+    .banner-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .banner-image {
+        grid-column: 3/5;
+    }
+
+    .experience-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .customisation-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .price-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-container {
+        grid-column: 2/3;
+    }
+
+    .subscribe-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-col:first-child {
+        max-width: 400px;
+    }
+}
+
+@media (width > 1024px) {
+    .price-grid {
+        gap: 32px
+    }
+}
